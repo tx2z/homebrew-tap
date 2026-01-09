@@ -2,27 +2,27 @@ class DevProcessRunner < Formula
   desc "Terminal UI for managing multiple development services"
   homepage "https://github.com/tx2z/dpr"
   license "MIT"
-  version "1.0.5"
+  version "1.1.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/tx2z/dpr/releases/download/v1.0.5/dpr-macos-arm64"
-      sha256 "ccbae5ca12a655c19891e770eb87d5558db8cb5c7cbddebb89aad15cc8f87784"
+      url "https://github.com/tx2z/dpr/releases/download/v1.1.0/dpr-macos-arm64"
+      sha256 "26e37f5ee2e0f54f121772b27296bf99fbe66d469e4e2c78995524cd69cedb63"
     end
     on_intel do
-      url "https://github.com/tx2z/dpr/releases/download/v1.0.5/dpr-macos-x64"
-      sha256 "3b95b7bf470f1709b2d4d58ca0a32bb89e0d55e42295df30df478608c9ea60e9"
+      url "https://github.com/tx2z/dpr/releases/download/v1.1.0/dpr-macos-x64"
+      sha256 "5836a96cb36fa8eca0859d196c6c3e1b68ba5f4ebf3a0dc87511b05064ec5781"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/tx2z/dpr/releases/download/v1.0.5/dpr-linux-arm64"
-      sha256 "7c76d27487aa0bf699f579f18f356a431b0d3340a46ad7ad43a08beb4ca13df7"
+      url "https://github.com/tx2z/dpr/releases/download/v1.1.0/dpr-linux-arm64"
+      sha256 "e76a6910a325d4ff5f3809301aa5d4ab7bee53d73f8051e1c1bbf190953be182"
     end
     on_intel do
-      url "https://github.com/tx2z/dpr/releases/download/v1.0.5/dpr-linux-x64"
-      sha256 "500d373df0a3b0ac96fdbe50533b03736666ec7843b155f1f941b86dd3899dd8"
+      url "https://github.com/tx2z/dpr/releases/download/v1.1.0/dpr-linux-x64"
+      sha256 "3b43330f36d4c9205f17e60ec8deea151d066e55ec579f25e702d8d1d7e670e9"
     end
   end
 
